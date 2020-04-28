@@ -7,7 +7,7 @@ $include antag_rep.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
-# @SERVERNAME beestation
+# @SERVERNAME Norule Station: NoRule NoFun They Said
 # Which sets the SERVERNAME, and disallows admins from being able to change it using View Variables.
 # @LOG_TWITTER 0
 # Which explicitly disables LOG_TWITTER, as well as locking it.
@@ -20,18 +20,18 @@ $include antag_rep.txt
 #@SERVERSQLNAME ss13newbs
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Norule Station
+STATIONNAME Norule Station: Corona Time
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 180
+LOBBY_COUNTDOWN 120
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
 ROUND_END_COUNTDOWN 90
 
-#USING_DISCORD
+USING_DISCORD
 
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
@@ -148,10 +148,10 @@ LOG_MANIFEST
 PICTURE_LOGGING_CAMERA
 
 ## period of time in seconds for players to be considered inactive
-# INACTIVITY_PERIOD 300
+# INACTIVITY_PERIOD 3000
 
 ## period of time in seconds for players to be considered afk and kickable
-# AFK_PERIOD 600
+# AFK_PERIOD 6000
 
 ## disconnect players who are considered afk
 # KICK_INACTIVE
@@ -190,7 +190,7 @@ NORESPAWN
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Crossedfall
+HOSTEDBY TheRealUnabomber
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -231,16 +231,16 @@ CHECK_RANDOMIZER
 SERVER  byond://golden.beestation13.com:7777
 
 ## forum address
-FORUMURL http://forums.beestation13.com
+FORUMURL https://upload.wikimedia.org/wikipedia/commons/6/64/Poster_not_available.jpg
 
 ## Wiki address
 WIKIURL https://wiki.beestation13.com/view
 
 ## Rules address
-RULESURL http://beestation13.com/rules?server=bs_golden
+RULESURL https://i.gyazo.com/2dd81bea186afb2dab0b0d278b6ef066.png
 
 ## Github address
-GITHUBURL https://www.github.com/beestation/beestation-hornet
+GITHUBURL https://github.com/TheRealUnabomber/Norule-Station
 
 ## Label to tag ingame-registered issues with.
 ## Uncomment this to enable them.
