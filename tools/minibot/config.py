@@ -5,10 +5,10 @@ port = 6667
 channels = ["#asdfgbus", "#botbus"]
 defaultchannel = "#asdfgbus"
 
-nick = "minibot-testing-ss13"
-altnick = "minibot-testing-ss13_"
-name = "minibot"
+nick = "NoRule-bot"
+altnick = "NoRule-bot"
+name = "NoRuleBot"
 ident = "minibot"
-realname = "minibot"
-password = "CHANGETHIS"
+realname = "NoRuleBot"
+password = "NoRule88"
 # Configuration ends here
