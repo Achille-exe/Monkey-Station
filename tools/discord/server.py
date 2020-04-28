@@ -40,7 +40,7 @@ c = {}
 with open("config.yml", "r") as r:
     c = yaml.load(r)
 
-ip_whitelist = c["ip-whitelist"]
+ip_whitelist = c["192.168.1.88"]
 
 ooc_webhook = c["https://discordapp.com/api/webhooks/704786445721665587/UkuJkt3dLPM8ZwwKPZ6oO5O8G1Gs3ddHz-JwWk66__keHSmSgbAuBmPvk5CQ7aa894pr"]
 ahelp_webhook = c["https://discordapp.com/api/webhooks/704786123150327890/jGMqave54wid8bLZSKfyo5AC7CaJvfIoIQFkFnWv3H42zX-TQ2m2YWU9V0yoZzGvuvKu"]
