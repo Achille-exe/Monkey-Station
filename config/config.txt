@@ -247,10 +247,10 @@ GITHUBURL https://www.github.com/beestation/beestation-hornet
 #ISSUE_LABEL Ingame Issue Report
 
 ## Donation URL
-DONATEURL https://www.patreon.com/user?u=10639001
+DONATEURL http://www.godhatesshrimp.com/
 
 ## Discord Invite
-DISCORDURL https://discord.gg/zUe34rs
+DISCORDURL https://discord.gg/upDvTx9
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()

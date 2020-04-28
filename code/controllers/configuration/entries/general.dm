@@ -216,7 +216,7 @@
 	config_entry_value = "https://www.patreon.com/user?u=10639001"
 
 /datum/config_entry/string/discordurl
-	config_entry_value = "https://discord.gg/zUe34rs"
+	config_entry_value = "https://discord.gg/n9sfFuu"
 
 /datum/config_entry/string/roundstatsurl
 
