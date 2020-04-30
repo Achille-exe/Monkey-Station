@@ -1,9 +1,11 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Norule station!</h1>
+<h1>Welcome to Monkey station!</h1>
 
-<br><b>Not a Website (working on it): 	<a href="https://discord.gg/n9sfFuu">Click Here to redirect to our discord!</a></b>
-<br><b>Discord: 	<a href="http://www.godhatesshrimp.com/">Click Here!</a></b>
-<br><b>God Hates Shrimp (FOR REAL):	<a href="https://discord.gg/n9sfFuu">Check if you do not believe that.</a></b>
-
-<br><b>Also this server is under development, please stay tuned with our Discord Server and give us some new ideas! Searching for one Dev and one Iconner! Contact me in discord! Ah.. and remember.. NO RULES!!!!</b>
+<br><b>Not a Website (working on it): <a href="https://discord.gg/n9sfFuu">Click Here to redirect to our discord!</a></b>
+<br><b>Discord: <a href="http://www.godhatesshrimp.com/">Click Here!</a></b>
+<br><b>God Hates Shrimp (FOR REAL): <a href="https://discord.gg/n9sfFuu">Check if you do not believe that.</a></b>
+<br></b>
+<br><b>Also this server is under development, please stay tuned with our Discord Server and give us some new ideas!</b>
+<br></b>
+<br>Currently searchinh for iconners and new Admins!</b>

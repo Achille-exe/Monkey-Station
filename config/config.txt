@@ -20,7 +20,7 @@ $include antag_rep.txt
 #@SERVERSQLNAME ss13newbs
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Norule Station: Corona Time
+STATIONNAME Monkey Station: Apocalypse XII
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -244,7 +244,7 @@ GITHUBURL https://github.com/TheRealUnabomber/Norule-Station
 
 ## Label to tag ingame-registered issues with.
 ## Uncomment this to enable them.
-#ISSUE_LABEL Ingame Issue Report
+ISSUE_LABEL Ingame Issue Report
 
 ## Donation URL
 DONATEURL http://www.godhatesshrimp.com/
@@ -269,7 +269,7 @@ DISCORDURL https://discord.gg/upDvTx9
 GITHUBREPOID 154500094
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://forums.beestation13.com/c/ban-appeals/game-ban-appeals
+BANAPPEALS https://discord.gg/8WgJd4p
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
