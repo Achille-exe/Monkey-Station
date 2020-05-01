@@ -10,5 +10,9 @@
 # and will override any duplicate entries in the database.									  #
 ###############################################################################################
 TheRealUnabomber = Host
+EBicgamer = Game Master
+CODEMAN8926 = Admin
+big12345 = Trial Admin
+
 
 # the rest are in the db
