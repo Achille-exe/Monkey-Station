@@ -13,6 +13,7 @@ TheRealUnabomber = Host
 EBicgamer = Game Master
 CODEMAN8926 = Admin
 big12345 = Trial Admin
+CarlitoofTheCartel = Game Master
 
 
 # the rest are in the db
