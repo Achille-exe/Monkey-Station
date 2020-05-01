@@ -284,7 +284,7 @@ GLOBAL_VAR(restart_counter)
 		hostedby = CONFIG_GET(string/hostedby)
 
 	s += "<b>[station_name()]</b>";
-	s += "(<a href='https://discord.gg/n9sfFuu'>Discord</a>|<a href='http://www.godhatesshrimp.com/'>GodHatesShrip</a>)"
+	s += "(<a href='https://discord.gg/n9sfFuu'>Discord</a>)"
 
 	var/players = GLOB.clients.len
 
