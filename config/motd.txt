@@ -14,3 +14,25 @@
 <li><strong>Rule 2: Don't use the server to advertise players for other interests </strong></li>
 </ul>
 <p style="padding-left: 60px;">Do not use the server to advertise other servers or for other commercial interests. An exception may be made if you seek Administrator approval. Administrators can ban you instantly.</p>
+<nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" data-booted="true">
+<div class="v-toolbar__content">
+<ul>
+<li class="v-toolbar__title"><strong>Rule 3: Maintaining a Respectful Environment</strong></li>
+</ul>
+<div class="spacer" style="padding-left: 60px;">Under no circumstances is OOC harassment of another player allowed, regardless of who the victim is. Repeated IC harassment with little to no reason can be considered metagrudging.<br />Do not put down, invalidate, berate and/or otherwise insult any player, community or server. While anger, frustration, and abuse may be quite suitable ICly, you may be asked to stop by an Administrator if it is seen as over the top, spamming, or without good cause. You can easily enjoy your time on a specific server without having to share your disinterest or plain criticism of other ones.</div>
+<ul>
+<li class="spacer"><strong>Rule 4: Play Antagonists Responsibly</strong></li>
+</ul>
+<p style="padding-left: 60px;">Remember the goal of an Antagonist is to make the round exciting, fun, and dangerous, within limits. You should make an effort to add to the round, as opposed to simply completing your objectives and carrying on normally.<br />The role of the Antagonist may pit you against the station. However,<strong> <span style="text-decoration: underline;">this is not grounds for murderboning</span></strong> the entire crew if your objective is to steal a jetpack, as you must work towards your objectives, not general mayhem. You may, however, antagonize/murder specific people who will help you complete your objective or who are hindering you from completing said objective. You are also permitted to freely defend yourself with lethal force if another player attempts to capture/hinder you.</p>
+<nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" style="display: inline !important;" data-booted="true">
+<div class="v-toolbar__content" style="display: inline !important;">
+<ul>
+<li class="spacer"><strong>Rule 5: Space law</strong></li>
+</ul>
+<p style="padding-left: 60px;">Space law applied is the following: <a href="https://wiki.beestation13.com/view/Space_Law">Click here for the redirection</a><br /><span style="text-decoration: underline;"><strong>Please keep in mind that every Security and Command must know those rules</strong></span>, administrators will act based on those rules.</p>
+<p><br /><span style="text-decoration: underline;">PLEASE REMEMBER THAT THIS IS A MEDIUM RP SERVER</span>! Now have a nice round and stay safe!</p>
+</div>
+</nav>
+<div class="v-card__text">&nbsp;</div>
+</div>
+</nav>
