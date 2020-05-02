@@ -1,11 +1,16 @@
 <!-- Most valid html will work in here, excluding images. -->
-
 <h1>Welcome to Monkey station!</h1>
-
-<br><b>Not a Website (working on it): <a href="https://discord.gg/n9sfFuu">Click Here to redirect to our discord!</a></b>
-<br><b>Discord: <a href="http://www.godhatesshrimp.com/">Click Here!</a></b>
-<br><b>God Hates Shrimp (FOR REAL): <a href="https://discord.gg/n9sfFuu">Check if you do not believe that.</a></b>
-<br></b>
-<br><b>Also this server is under development, please stay tuned with our Discord Server and give us some new ideas!</b>
-<br></b>
-<br>Currently searchinh for iconners and new Admins!</b>
+<p><br /><strong>Discord: <a href="http://www.godhatesshrimp.com/">Click Here!</a></strong> <br /><strong>God Hates Shrimp (FOR REAL): <a href="https://discord.gg/n9sfFuu">Check if you do not believe that</a></strong><br /> <br /><strong>This server is under development, please stay tuned with our Discord Server and give us some new ideas!</strong></p>
+<h3><strong>Please find below the only rules that we are using right now:<br /></strong></h3>
+<ul>
+<li><strong>Rule 0: Don't be a dick Practice common sense while consulting these rules. </strong></li>
+</ul>
+<p style="text-align: left; padding-left: 60px;">The rules are guidelines for the server and should be interpreted to suit the situation at hand, not manipulated to suit your needs. Attempting to Rules-Lawyer an Administrator is never a good idea, and likely to result in harsher punishment. The Server Staff retains the right to issue Permanent Bans to players that they consider to be a consistent net negative to the community and server, without the need for any specific Rule to be broken.</p>
+<ul>
+<li><strong>Rule 1: Listen to the Admins The Staff Members have the final say on the server. </strong></li>
+</ul>
+<p style="padding-left: 60px;">If you are banned from the server, you can create a ticket in discord to talk about your ban and maybe get unbanned If you do not get a response, the Administrators are either busy with other matters or not available. If no Administrators are available, you may take your request to the Discord if needed.</p>
+<ul>
+<li><strong>Rule 2: Don't use the server to advertise players for other interests </strong></li>
+</ul>
+<p style="padding-left: 60px;">Do not use the server to advertise other servers or for other commercial interests. An exception may be made if you seek Administrator approval. Administrators can ban you instantly.</p>
