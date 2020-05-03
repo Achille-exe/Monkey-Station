@@ -40,10 +40,10 @@ c = {}
 with open("config.yml", "r") as r:
     c = yaml.load(r)
 
-ip_whitelist = c["127.0.0.1"]
+ip_whitelist = c["ip-whitelist"]
 
-ooc_webhook = c["https://discordapp.com/api/webhooks/705959709181739019/RUVw6F5e3nTfvmtxh_U1N1Gt93ko7FSski8tXepKNNGbdHHEbrXY-SKonTr7rbbkRs_6"]
-ahelp_webhook = c["https://discordapp.com/api/webhooks/705959578705199104/y3PWlOtrRIaNG3pDc4GrSZbyo4OM47rtdn0Q1rZnTbgcRIxgMt9YcP1eCuJW9rqc_2sQ"]
+ooc_webhook = c["ooc-webhook"]
+ahelp_webhook = c["ahelp-webhook"]
 
 app = Flask(__name__)
 
