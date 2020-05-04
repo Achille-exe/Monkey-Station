@@ -1,6 +1,6 @@
 <!-- Most valid html will work in here, excluding images. -->
 <h1>Welcome to Monkey station!</h1>
-<p><br /><strong>Discord: <a href="http://www.godhatesshrimp.com/">Click Here!</a></strong> <br /><strong>God Hates Shrimp (FOR REAL): <a href="https://discord.gg/n9sfFuu">Check if you do not believe that</a></strong><br /> <br /><strong>This server is under development, please stay tuned with our Discord Server and give us some new ideas!</strong></p>
+<p><br /><strong>Discord: <a href="https://discord.gg/n9sfFuu">Click Here!</a></strong> <br /><strong>God Hates Shrimp (FOR REAL): <a href="http://www.godhatesshrimp.com/">Check if you do not believe that</a></strong><br /> <br /><strong>This server is under development, please stay tuned with our Discord Server and give us some new ideas! Currently searching for active Admins that do have experience!</strong></p>
 <h3><strong>Please find below the only rules that we are using right now:<br /></strong></h3>
 <ul>
 <li><strong>Rule 0: Don't be a dick Practice common sense while consulting these rules. </strong></li>
@@ -23,14 +23,14 @@
 <ul>
 <li class="spacer"><strong>Rule 4: Play Antagonists Responsibly</strong></li>
 </ul>
-<p style="padding-left: 60px;">Remember the goal of an Antagonist is to make the round exciting, fun, and dangerous, within limits. You should make an effort to add to the round, as opposed to simply completing your objectives and carrying on normally.<br />The role of the Antagonist may pit you against the station. However,<strong> <span style="text-decoration: underline;">this is not grounds for murderboning</span></strong> the entire crew if your objective is to steal a jetpack, as you must work towards your objectives, not general mayhem. You may, however, antagonize/murder specific people who will help you complete your objective or who are hindering you from completing said objective. You are also permitted to freely defend yourself with lethal force if another player attempts to capture/hinder you.</p>
+<p style="padding-left: 60px;">Medium role play is expected and enforced. Contrary to how it is painted on other servers, medium role play is defined as enough role play to reach full immersion. This looks like people doing the jobs they signed up for, people being able to do the jobs they signed up for, and acting within the bounds of the universe the basic lore has established. Furthermore this rule is also applies to antagonists, meaning that you must never actively work against your objectives, failing them is fine so long as you didn’t fail them because you wanted to murderbone the station and or turn the mime into a cat girl, essentially commit antagonistic actions with objective oriented intent. On a final note, fourth wall breaks are non tolerable as they break the medium role play immersion.</p>
 <nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" style="display: inline !important;" data-booted="true">
 <div class="v-toolbar__content" style="display: inline !important;">
 <ul>
 <li class="spacer"><strong>Rule 5: Space law</strong></li>
 </ul>
 <p style="padding-left: 60px;">Space law applied is the following: <a href="https://wiki.beestation13.com/view/Space_Law">Click here for the redirection</a><br /><span style="text-decoration: underline;"><strong>Please keep in mind that every Security and Command must know those rules</strong></span>, administrators will act based on those rules.</p>
-<p><br /><span style="text-decoration: underline;">PLEASE REMEMBER THAT THIS IS A MEDIUM RP SERVER</span>! Now have a nice round and stay safe!</p>
+<p><br /><span style="text-decoration: underline;">PLEASE REMEMBER THAT THIS IS A MEDIUM RP SERVER</span>! To contact the Admins just AHELP(Under Admin TAB or press F1) even if none of them are online, a discord bot will advice and we will try to get back to you! Now have a nice round and stay safe!</p>
 </div>
 </nav>
 <div class="v-card__text">&nbsp;</div>
