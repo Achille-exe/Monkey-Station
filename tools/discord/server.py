@@ -10,6 +10,8 @@ triggers webhooks for discord.
 It needs to be filled out correctly to work, duh
 
 Also this was made by CthulhuOnIce
+
+To run the script just do C:\Users\Administrator\Desktop\Monkey Station\tools\discord>python server.py
 """
 
 valid = "<>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#[]@!$&'()*+,;= "
