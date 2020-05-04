@@ -172,7 +172,7 @@
 
 /obj/item/grenade/plastic/c4
 	name = "C4"
-	desc = "Used to put holes in specific areas without too much extra hole. A saboteur's favorite."
+	desc = "Used to put holes in specific areas without too much extra hole. A saboteur's favorite. Unabomber likes that."
 	gender = PLURAL
 	var/open_panel = 0
 	can_attach_mob = TRUE
@@ -231,7 +231,7 @@
 
 /obj/item/grenade/plastic/x4
 	name = "X4"
-	desc = "A shaped high-explosive breaching charge. Designed to ensure user safety and wall nonsafety."
+	desc = "A shaped high-explosive breaching charge. Designed to ensure user safety and wall nonsafety. Favourite Unabomber's bomb."
 	icon_state = "plasticx40"
 	item_state = "plasticx4"
 	gender = PLURAL

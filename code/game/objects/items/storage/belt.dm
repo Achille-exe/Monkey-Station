@@ -442,7 +442,7 @@
 
 /obj/item/storage/belt/grenade
 	name = "grenadier belt"
-	desc = "A belt for holding grenades."
+	desc = "A belt for holding grenades. Unabomber's belt."
 	icon_state = "grenadebeltnew"
 	item_state = "security"
 

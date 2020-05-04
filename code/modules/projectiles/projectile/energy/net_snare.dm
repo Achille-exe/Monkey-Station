@@ -60,7 +60,7 @@
 	icon_state = "e_snare"
 	nodamage = TRUE
 	hitsound = 'sound/weapons/taserhit.ogg'
-	range = 4
+	range = 8
 
 /obj/item/projectile/energy/trap/on_hit(atom/target, blocked = FALSE)
 	if(!ismob(target) || blocked >= 100) //Fully blocked by mob or collided with dense object - drop a trap

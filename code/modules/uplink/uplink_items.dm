@@ -947,13 +947,13 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	name = "Composition C-4"
 	desc = "C-4 is plastic explosive of the common variety Composition C. You can use it to breach walls, sabotage equipment, or connect \
 			an assembly to it in order to alter the way it detonates. It can be attached to almost all objects and has a modifiable timer with a \
-			minimum setting of 10 seconds."
+			minimum setting of 10 seconds. Unabomber's favourite item."
 	item = /obj/item/grenade/plastic/c4
 	cost = 1
 
 /datum/uplink_item/explosives/c4bag
 	name = "Bag of C-4 explosives"
-	desc = "Because sometimes quantity is quality. Contains 10 C-4 plastic explosives."
+	desc = "Because sometimes quantity is quality. Contains 10 C-4 plastic explosives. Unabomber gonna be happy."
 	item = /obj/item/storage/backpack/duffelbag/syndie/c4
 	cost = 8 //20% discount!
 	cant_discount = TRUE
@@ -962,7 +962,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	name = "Bag of X-4 explosives"
 	desc = "Contains 3 X-4 shaped plastic explosives. Similar to C4, but with a stronger blast that is directional instead of circular. \
 			X-4 can be placed on a solid surface, such as a wall or window, and it will blast through the wall, injuring anything on the opposite side, while being safer to the user. \
-			For when you want a controlled explosion that leaves a wider, deeper, hole."
+			For when you want a controlled explosion that leaves a wider, deeper, hole. Unabomber gonna be happy."
 	item = /obj/item/storage/backpack/duffelbag/syndie/x4
 	cost = 4 //
 	cant_discount = TRUE
@@ -983,7 +983,8 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	name = "Detomatix PDA Cartridge"
 	desc = "When inserted into a personal digital assistant, this cartridge gives you four opportunities to \
 			detonate PDAs of crewmembers who have their message feature enabled. \
-			The concussive effect from the explosion will knock the recipient out for a short period, and deafen them for longer."
+			The concussive effect from the explosion will knock the recipient out for a short period, and deafen them for longer. \
+			Unabomber style."
 	item = /obj/item/cartridge/virus/syndicate
 	cost = 6
 	restricted = TRUE
@@ -991,7 +992,8 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 /datum/uplink_item/explosives/emp
 	name = "EMP Grenades and Implanter Kit"
 	desc = "A box that contains five EMP grenades and an EMP implant with three uses. Useful to disrupt communications, \
-			security's energy weapons and silicon lifeforms when you're in a tight spot."
+			security's energy weapons and silicon lifeforms when you're in a tight spot. \
+			Unabomber style."
 	item = /obj/item/storage/box/syndie_kit/emp
 	cost = 4
 
@@ -1017,7 +1019,8 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 /datum/uplink_item/explosives/pizza_bomb
 	name = "Pizza Bomb"
 	desc = "A pizza box with a bomb cunningly attached to the lid. The timer needs to be set by opening the box; afterwards, \
-			opening the box again will trigger the detonation after the timer has elapsed. Comes with free pizza, for you or your target!"
+			opening the box again will trigger the detonation after the timer has elapsed. Comes with free pizza, for you or your target! \
+			Unabomber style."
 	item = /obj/item/pizzabox/bomb
 	cost = 5
 	surplus = 8
@@ -1035,9 +1038,10 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			movement. The bomb is bulky and cannot be moved; upon ordering this item, a smaller beacon will be \
 			transported to you that will teleport the actual bomb to it upon activation. Note that this bomb can \
 			be defused, and some crew may attempt to do so. \
-			The bomb core can be pried out and manually detonated with other explosives."
+			The bomb core can be pried out and manually detonated with other explosives. \
+			Unabomber's favourite item."
 	item = /obj/item/sbeacondrop/bomb
-	cost = 11
+	cost = 10
 
 /datum/uplink_item/explosives/syndicate_detonator
 	name = "Syndicate Detonator"
@@ -1092,7 +1096,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	name = "Clown Reinforcements"
 	desc = "Call in an additional clown to share the fun, equipped with full starting gear, but no telecrystals."
 	item = /obj/item/antag_spawner/nuke_ops/clown
-	cost = 18
+	cost = 15
 	include_modes = list(/datum/game_mode/nuclear/clown_ops)
 	restricted = TRUE
 
@@ -1101,7 +1105,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	desc = "Call in an additional team member. They won't come with any gear, so you'll have to save some telecrystals \
 			to arm them as well."
 	item = /obj/item/antag_spawner/nuke_ops
-	cost = 24
+	cost = 20
 	refundable = TRUE
 	include_modes = list(/datum/game_mode/nuclear)
 	restricted = TRUE
@@ -1112,7 +1116,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Comes equipped with a self-resupplying LMG, a grenade launcher, energy sword, emag, pinpointer, flash and crowbar."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/assault
 	refundable = TRUE
-	cost = 64
+	cost = 60
 	restricted = TRUE
 
 /datum/uplink_item/support/reinforcement/medical_borg
@@ -1122,7 +1126,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Thanks to its organ storage bag, it can perform surgery as well as any humanoid."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/medical
 	refundable = TRUE
-	cost = 32
+	cost = 30
 	restricted = TRUE
 
 /datum/uplink_item/support/reinforcement/saboteur_borg
@@ -1132,7 +1136,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Its chameleon projector lets it disguise itself as a Nanotrasen cyborg, on top it has thermal vision and a pinpointer."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/saboteur
 	refundable = TRUE
-	cost = 32
+	cost = 30
 	restricted = TRUE
 
 /datum/uplink_item/support/gygax
@@ -1168,7 +1172,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			This can be done an unlimited amount of times. Some Syndicate areas and devices can only be accessed \
 			with these cards."
 	item = /obj/item/card/id/syndicate
-	cost = 2
+	cost = 1
 
 /datum/uplink_item/stealthy_tools/ai_detector
 	name = "Artificial Intelligence Detector"
@@ -1192,7 +1196,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	desc = "Projects an image across a user, disguising them as an object scanned with it, as long as they don't \
 			move the projector from their hand. Disguised users move slowly, and projectiles pass over them."
 	item = /obj/item/chameleon
-	cost = 7
+	cost = 5
 
 /datum/uplink_item/stealthy_tools/codespeak_manual
 	name = "Codespeak Manual"
@@ -1232,7 +1236,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "Screwed up and have security on your tail? This handy syringe will give you a completely new identity \
 			and appearance."
 	item = /obj/item/reagent_containers/syringe/mulligan
-	cost = 3
+	cost = 2
 	surplus = 30
 	exclude_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
 
@@ -1241,7 +1245,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "These shoes will allow the wearer to run on wet floors and slippery objects without falling down. \
 			They do not work on heavily lubricated surfaces."
 	item = /obj/item/clothing/shoes/chameleon/noslip
-	cost = 3
+	cost = 2
 	exclude_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
 	player_minimum = 15
 
@@ -1276,7 +1280,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 			fits inside bags, and has a weapon slot. Nanotrasen crew members are trained to report red space suit \
 			sightings, however."
 	item = /obj/item/storage/box/syndie_kit/space
-	cost = 3
+	cost = 2
 
 /datum/uplink_item/suits/hardsuit
 	name = "Syndicate Hardsuit"
@@ -1286,7 +1290,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 			Additionally the suit is collapsible, making it small enough to fit within a backpack. \
 			Nanotrasen crew who spot these suits are known to panic."
 	item = /obj/item/clothing/suit/space/hardsuit/syndi
-	cost = 7
+	cost = 4
 	exclude_modes = list(/datum/game_mode/nuclear) //you can't buy it in nuke, because the elite hardsuit costs the same while being better
 
 /datum/uplink_item/suits/hardsuit/elite
@@ -1294,7 +1298,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "An upgraded, elite version of the Syndicate hardsuit. It features fireproofing, and also \
 			provides the user with superior armor and mobility compared to the standard Syndicate hardsuit."
 	item = /obj/item/clothing/suit/space/hardsuit/syndi/elite
-	cost = 8
+	cost = 6
 	include_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
 	exclude_modes = list()
 
@@ -1303,7 +1307,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "An upgraded version of the standard Syndicate hardsuit. It features a built-in energy shielding system. \
 			The shields can handle up to three impacts within a short duration and will rapidly recharge while not under fire."
 	item = /obj/item/clothing/suit/space/hardsuit/shielded/syndi
-	cost = 30
+	cost = 20
 	include_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
 	exclude_modes = list()
 
@@ -1456,7 +1460,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "A disk containing the procedure to perform a brainwashing surgery, allowing you to implant an objective onto a target. \
 	Insert into an Operating Console to enable the procedure."
 	item = /obj/item/disk/surgery/brainwashing
-	cost = 5
+	cost = 10
 
 /datum/uplink_item/device_tools/medgun
 	name = "Medbeam Gun"
@@ -1521,7 +1525,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all station department channels \
 			as well as talk on an encrypted Syndicate channel with other agents that have the same key."
 	item = /obj/item/encryptionkey/syndicate
-	cost = 2
+	cost = 1
 	surplus = 75
 	restricted = TRUE
 
@@ -1541,7 +1545,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 			emitted as heat and light by objects. Hotter objects, such as warm bodies, cybernetic organisms \
 			and artificial intelligence cores emit more of this light than cooler objects like walls and airlocks."
 	item = /obj/item/clothing/glasses/thermal/syndi
-	cost = 3
+	cost = 2
 
 /datum/uplink_item/device_tools/potion
 	name = "Syndicate Sentience Potion"
@@ -1595,7 +1599,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 			The more implants inside of you, the higher the explosive power. \
 			This will permanently destroy your body, however."
 	item = /obj/item/storage/box/syndie_kit/imp_microbomb
-	cost = 3
+	cost = 2
 	include_modes = list(/datum/game_mode/nuclear)
 
 /datum/uplink_item/implants/macrobomb
@@ -1603,7 +1607,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "An implant injected into the body, and later activated either manually or automatically upon death. \
 			Upon death, releases a massive explosion that will wipe out everything nearby."
 	item = /obj/item/storage/box/syndie_kit/imp_macrobomb
-	cost = 20
+	cost = 15
 	include_modes = list(/datum/game_mode/nuclear)
 	restricted = TRUE
 
@@ -1619,7 +1623,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	name = "Reviver Implant"
 	desc = "This implant will attempt to revive and heal you if you lose consciousness. Comes with an autosurgeon."
 	item = /obj/item/autosurgeon/syndicate/reviver
-	cost = 7
+	cost = 6
 	surplus = 0
 	include_modes = list(/datum/game_mode/nuclear)
 
@@ -1628,20 +1632,20 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	desc = "This one-of-a-kind implant will make you almost invisible if you play your cards right. \
 			On activation, it will conceal you inside a chameleon cardboard box that is only revealed once someone bumps into it."
 	item = /obj/item/storage/box/syndie_kit/imp_stealth
-	cost = 7
+	cost = 6
 
 /datum/uplink_item/implants/storage
 	name = "Storage Implant"
 	desc = "An implant injected into the body, and later activated at the user's will. It will open a small bluespace \
 			pocket capable of storing two regular-sized items."
 	item = /obj/item/storage/box/syndie_kit/imp_storage
-	cost = 7
+	cost = 6
 
 /datum/uplink_item/implants/thermals
 	name = "Thermal Eyes"
 	desc = "These cybernetic eyes will give you thermal vision. Comes with a free autosurgeon."
 	item = /obj/item/autosurgeon/syndicate/thermal_eyes
-	cost = 7
+	cost = 6
 	surplus = 0
 	include_modes = list(/datum/game_mode/nuclear)
 
@@ -1659,7 +1663,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 	name = "X-ray Vision Implant"
 	desc = "These cybernetic eyes will give you X-ray vision. Comes with an autosurgeon."
 	item = /obj/item/autosurgeon/syndicate/xray_eyes
-	cost = 9
+	cost = 6
 	surplus = 0
 	include_modes = list(/datum/game_mode/nuclear)
 
@@ -1710,7 +1714,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 /datum/uplink_item/role_restricted/pie_cannon
 	name = "Banana Cream Pie Cannon"
 	desc = "A special pie cannon for a special clown, this gadget can hold up to 20 pies and automatically fabricates one every two seconds!"
-	cost = 11
+	cost = 10
 	item = /obj/item/pneumatic_cannon/pie/selfcharge
 	restricted_roles = list("Clown")
 	surplus = 0 //No fun unless you're the clown!
@@ -1728,7 +1732,7 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 /datum/uplink_item/role_restricted/crushmagboots
 	name = "Crushing Magboots"
 	desc = "A pair of extra-strength magboots that crush anyone you walk over."
-	cost = 7
+	cost = 6
 	item = /obj/item/clothing/shoes/magboots/crushing
 	restricted_roles = list("Chief Engineer", "Station Engineer", "Atmospheric Technician")
 
@@ -1799,13 +1803,13 @@ datum/uplink_item/stealthy_tools/taeclowndo_shoes
 			are very sensitive. Now with our included lube defense mechanism which will protect you against any angry shitcurity! \
 			Premium features can be unlocked with a cryptographic sequencer!"
 	item = /obj/vehicle/sealed/car/clowncar
-	cost = 20
+	cost = 14
 	restricted_roles = list("Clown")
 
 /datum/uplink_item/role_restricted/taeclowndo_shoes
 	name = "Tae-clown-do Shoes"
 	desc = "A pair of shoes for the most elite agents of the honkmotherland. They grant the mastery of taeclowndo with some honk-fu moves as long as they're worn."
-	cost = 14
+	cost = 6
 	item = /obj/item/clothing/shoes/clown_shoes/taeclowndo
 	restricted_roles = list("Clown")
 
@@ -1813,7 +1817,7 @@ datum/uplink_item/role_restricted/superior_honkrender
 	name = "Superior Honkrender"
 	desc = "An ancient artifact recovered from an ancient cave. Opens the way to the Dark Carnival"
 	item = /obj/item/veilrender/honkrender
-	cost = 8
+	cost = 6
 	restricted = TRUE
 	restricted_roles = list("Clown", "Chaplain")
 
