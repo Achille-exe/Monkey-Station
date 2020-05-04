@@ -32,7 +32,7 @@
 
 	display_order = JOB_DISPLAY_ORDER_CHIEF_ENGINEER
 
-/datum/outfit/job/ce
+/datum/outfit/job/ce // This job's starting gear
 	name = "Chief Engineer"
 	jobtype = /datum/job/chief_engineer
 
@@ -52,7 +52,7 @@
 	box = /obj/item/storage/box/engineer
 	pda_slot = SLOT_L_STORE
 	chameleon_extras = /obj/item/stamp/ce
-
+	implants = list(/obj/item/implant/mindshield) // Mindshield Implant
 /datum/outfit/job/ce/rig
 	name = "Chief Engineer (Hardsuit)"
 

@@ -38,7 +38,7 @@
 
 	display_order = JOB_DISPLAY_ORDER_HEAD_OF_PERSONNEL
 
-/datum/outfit/job/hop
+/datum/outfit/job/hop // This job's starting gear
 	name = "Head of Personnel"
 	jobtype = /datum/job/hop
 
@@ -52,3 +52,4 @@
 		/obj/item/melee/classic_baton/police/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced = 1)
 
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/hop)
+	implants = list(/obj/item/implant/mindshield) // Mindshield Implant

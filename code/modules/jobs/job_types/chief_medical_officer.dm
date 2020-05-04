@@ -30,7 +30,7 @@
 
 	display_order = JOB_DISPLAY_ORDER_CHIEF_MEDICAL_OFFICER
 
-/datum/outfit/job/cmo
+/datum/outfit/job/cmo // This job's starting gear
 	name = "Chief Medical Officer"
 	jobtype = /datum/job/cmo
 
@@ -50,6 +50,7 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
 	chameleon_extras = list(/obj/item/gun/syringe, /obj/item/stamp/cmo)
+	implants = list(/obj/item/implant/mindshield) // Mindshield Implant
 
 /datum/outfit/job/cmo/hardsuit
 	name = "Chief Medical Officer (Hardsuit)"
