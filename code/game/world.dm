@@ -284,8 +284,8 @@ GLOBAL_VAR(restart_counter)
 		hostedby = CONFIG_GET(string/hostedby)
 
 	s += "<b>[station_name()]</b>";
-	s += "(Online Discord Bots for a better management) (<a href='https://discord.gg/n9sfFuu'>Discord</a>)"
-	s += "(MHRP with basic rules) (100% LAG FREE)"
+	s += "<br />- Online Discord Bots for a better management, <a href='https://discord.gg/n9sfFuu'>Discord</a> <br />- MRP with basic rules <br />- <a href='https://github.com/TheRealUnabomber/Monkey-Station/issues'>Github</a></p>"
+
 
 	var/players = GLOB.clients.len
 
