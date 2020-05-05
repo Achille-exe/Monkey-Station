@@ -201,6 +201,8 @@
 	var/static/list/show_directions = list(SOUTH, WEST)
 	if(H.mind && (H.mind.assigned_role != H.mind.special_role))
 		var/assignment
+		if(H.mind.role_alt_title)
+			assignment = H.mind.role_alt_title
 		if(H.mind.assigned_role)
 			assignment = H.mind.assigned_role
 		else if(H.job)
