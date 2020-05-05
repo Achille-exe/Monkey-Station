@@ -1,5 +1,6 @@
 /datum/job/bartender
 	title = "Bartender"
+	alt_titles = list("Regular", "Nazi Bartender")
 	flag = BARTENDER
 	department_head = list("Head of Personnel")
 	department_flag = CIVILIAN
@@ -32,3 +33,24 @@
 	backpack_contents = list(/obj/item/storage/box/beanbag=1)
 	shoes = /obj/item/clothing/shoes/laceup
 
+/datum/outfit/job/bartender/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+	if(H.mind && H.mind.role_alt_title)
+		if("Regular")
+			id = /obj/item/card/id/job/serv
+			glasses = /obj/item/clothing/glasses/sunglasses/advanced/reagent
+			belt = /obj/item/pda/bar
+			ears = /obj/item/radio/headset/headset_srv
+			uniform = /obj/item/clothing/under/rank/bartender
+			suit = /obj/item/clothing/suit/armor/vest
+			backpack_contents = list(/obj/item/storage/box/beanbag=1)
+			shoes = /obj/item/clothing/shoes/laceup
+		if ("Nazi Bartender")
+			id = /obj/item/card/id/job/serv
+			glasses = /obj/item/clothing/glasses/sunglasses/advanced/reagent
+			belt = /obj/item/pda/bar
+			ears = /obj/item/radio/headset/headset_srv
+			uniform = /obj/item/clothing/under/rank/bartender
+			suit = /obj/item/clothing/suit/armor/vest/nazi_coat
+			backpack_contents = list(/obj/item/storage/box/beanbag=1)
+			shoes = /obj/item/clothing/shoes/laceup

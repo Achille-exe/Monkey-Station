@@ -75,6 +75,9 @@ SUBSYSTEM_DEF(job)
 		SetupOccupations()
 	return type_occupations[jobtype]
 
+/datum/controller/subsystem/job/proc/GetPlayerAltTitle(mob/dead/new_player/player, rank)
+	return player.client.prefs.GetPlayerAltTitle(rank)
+
 /datum/controller/subsystem/job/proc/AssignRole(mob/dead/new_player/player, rank, latejoin = FALSE)
 	JobDebug("Running AR, Player: [player], Rank: [rank], LJ: [latejoin]")
 	if(player?.mind && rank)
@@ -91,7 +94,10 @@ SUBSYSTEM_DEF(job)
 		if(!latejoin)
 			position_limit = job.spawn_positions
 		JobDebug("Player: [player] is now Rank: [rank], JCP:[job.current_positions], JPL:[position_limit]")
-		player.mind.assigned_role = rank
+
+		//player.mind.role_alt_title = GetPlayerAltTitle(player, rank)
+		player.mind.assigned_role = GetPlayerAltTitle(player, rank) ? GetPlayerAltTitle(player, rank) : rank
+
 		unassigned -= player
 		job.current_positions++
 		return TRUE
