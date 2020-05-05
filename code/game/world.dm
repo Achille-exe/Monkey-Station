@@ -284,7 +284,8 @@ GLOBAL_VAR(restart_counter)
 		hostedby = CONFIG_GET(string/hostedby)
 
 	s += "<b>[station_name()]</b>";
-	s += "(BeeStation CODE UPDATED) (100% LAG FREE) (Online Discord Bots for a better management) (MHRP with basic rules) (<a href='https://discord.gg/n9sfFuu'>Discord</a>)"
+	s += "(Online Discord Bots for a better management) (<a href='https://discord.gg/n9sfFuu'>Discord</a>)"
+	s += "(MHRP with basic rules) (100% LAG FREE)"
 
 	var/players = GLOB.clients.len
 
