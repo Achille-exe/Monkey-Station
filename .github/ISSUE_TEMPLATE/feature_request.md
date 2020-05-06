@@ -16,3 +16,5 @@ Please keep it detailed and clear.-->
 
 <!-- Please give a reasonable explanation as to why your feature is a good addition to the server, and why should we implement it.
 This section is also to be detailed and clear. -->
+
+<!-- Make sure to mark your issue with the "Feature" and "Question" label. The first meaning it's obvious position as a feature, and the second meaning it's open to debate. -->
