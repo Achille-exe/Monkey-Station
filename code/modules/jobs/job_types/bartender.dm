@@ -35,7 +35,7 @@
 
 /datum/outfit/job/bartender/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
-	if(H.mind && H.mind.role_alt_title)
+	switch(H.mind && H.mind.role_alt_title)
 		if("Regular")
 			id = /obj/item/card/id/job/serv
 			glasses = /obj/item/clothing/glasses/sunglasses/advanced/reagent
