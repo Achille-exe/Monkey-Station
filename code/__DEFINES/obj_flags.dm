@@ -1,5 +1,8 @@
 // Flags for the obj_flags var on /obj
 
+// |= flag				- Adds a flag. E.g: 	obj_flags |= EMAGGED
+// &= ~flag				- Clears a flag. E.g:	obj_flags &= ~EMAGGED
+// if(obj_flags & flag)	- Checks for a flag
 
 #define EMAGGED					(1<<0)
 #define IN_USE					(1<<1) //! If we have a user using us, this will be set on. We will check if the user has stopped using us, and thus stop updating and LAGGING EVERYTHING!
