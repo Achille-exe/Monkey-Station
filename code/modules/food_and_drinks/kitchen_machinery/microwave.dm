@@ -22,6 +22,7 @@
 	var/max_n_of_items = 10
 	var/efficiency = 0
 	var/datum/looping_sound/microwave/soundloop
+	var/datum/looping_sound/emagmicrowave/soundloop
 	var/list/ingredients = list() // may only contain /atom/movables
 
 	var/static/radial_examine = image(icon = 'icons/mob/radial.dmi', icon_state = "radial_examine")
@@ -37,6 +38,7 @@
 	wires = new /datum/wires/microwave(src)
 	create_reagents(100)
 	soundloop = new(list(src), FALSE)
+	emagsoundloop = new(list(src), FALSE)
 
 /obj/machinery/microwave/Destroy()
 	eject()
@@ -115,6 +117,27 @@
 	if(panel_open && is_wire_tool(O))
 		wires.interact(user)
 		return TRUE
+
+	// |= flag				- Adds a flag. E.g: 	obj_flags |= EMAGED
+	// &= ~flag				- Clears a flag. E.g:	obj_flags &= ~EMAGED
+	// if(obj_flags & flag)	- Checks for a flag
+
+	// If using Microwave with a emag 
+	if(istype(O, /obj/item/card/emag))
+		if(obj_flags & EMAGGED)
+			if(prob(1))
+				to_chat(user,"<span class='warning'>You've already fucked up this [src], retard!</span>")
+			else
+				to_chat(user,"<span class='warning'>The microwave is already sabotaged!</span>")
+			return TRUE
+		else
+			if(prob(1))
+				to_chat(user, "<span class='notice'>You just fucking emagged \the [src]. Are you retarded?</span>")
+			else
+				to_chat(user, "<span class='notice'>*bzzt*.</span>")
+			// Emag it
+			obj_flags |= EMAGGED
+			return TRUE
 
 	if(broken > 0)
 		if(broken == 2 && O.tool_behaviour == TOOL_WIRECUTTER) // If it's broken and they're using a screwdriver
@@ -257,7 +280,10 @@
 	operating = TRUE
 
 	set_light(1.5)
-	soundloop.start()
+	if(obj_flags & EMAGGED)
+		emagsoundloop.start()
+	else
+		soundloop.start()
 	update_icon()
 
 /obj/machinery/microwave/proc/spark()
@@ -348,7 +374,10 @@
 
 /obj/machinery/microwave/proc/after_finish_loop()
 	set_light(0)
-	soundloop.stop()
+	if(obj_flags & EMAGGED)
+		emagsoundloop.stop()
+	else
+		soundloop.stop()
 	update_icon()
 
 #undef MICROWAVE_NORMAL
