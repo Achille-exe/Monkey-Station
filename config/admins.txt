@@ -12,8 +12,8 @@
 TheRealUnabomber = Host
 EBicgamer = Game Master
 CODEMAN8926 = Admin
-CarlitoofTheCartel = Game Master
 Fegelein17 = Admin
-NonCancerAlias = Admin
+NonCancerAlias = Game Master
+Helloguy3953 = Trial Admin
 
 # the rest are in the db
