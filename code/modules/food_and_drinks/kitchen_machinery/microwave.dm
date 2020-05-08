@@ -124,14 +124,19 @@
 
 	// If using Microwave with a emag 
 	if(istype(O, /obj/item/card/emag))
-	if(obj_flags & EMAGGED)
-		if(prob(1))
-			to_chat(user, "<span class='notice'>You just fucking emagged \the [src]. Are you retarded?</span>")
+		if(obj_flags & EMAGGED)
+			if(prob(1))
+				to_chat(user,"<span class='warning'>You've already fucked up this [src], retard!</span>")
+			else
+				to_chat(user,"<span class='warning'>The microwave is already sabotaged!</span>")
 		else
-			to_chat(user, "<span class='notice'>*bzzt*.</span>")
-		// Emag it
-		obj_flags |= EMAGGED
-		return TRUE
+			if(prob(1))
+				to_chat(user, "<span class='notice'>You just fucking emagged \the [src]. Are you retarded?</span>")
+			else
+				to_chat(user, "<span class='notice'>*bzzt*.</span>")
+			// Emag it
+			obj_flags |= EMAGGED
+			return TRUE
 
 	if(broken > 0)
 		if(broken == 2 && O.tool_behaviour == TOOL_WIRECUTTER) // If it's broken and they're using a screwdriver
