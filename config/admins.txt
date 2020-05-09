@@ -14,7 +14,7 @@ EBicgamer = Game Master
 CODEMAN8926 = Admin
 Fegelein17 = Admin
 NonCancerAlias = Game Master
-Helloguy3953 = Trial Admin
+SuperDork55 = Admin
 GiggaGuyFromSpaceLand = Trial Admin
 
 # the rest are in the db
