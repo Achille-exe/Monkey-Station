@@ -55373,6 +55373,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness)
+"qPN" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "qQC" = (
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/turf_decal/bot{
@@ -80604,7 +80608,7 @@ bxy
 aaf
 aaf
 bCq
-bOK
+qPN
 bCq
 bCq
 bCq
