@@ -16,5 +16,6 @@ Fegelein17 = Admin
 NonCancerAlias = Game Master
 SuperDork55 = Admin
 GiggaGuyFromSpaceLand = Trial Admin
+MACIEKBAKI = Trial Admin
 
 # the rest are in the db
