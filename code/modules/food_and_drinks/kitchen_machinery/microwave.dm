@@ -129,7 +129,6 @@
 				to_chat(user,"<span class='warning'>You've already fucked up this [src], retard!</span>")
 			else
 				to_chat(user,"<span class='warning'>The microwave is already sabotaged!</span>")
-			return TRUE
 		else
 			if(prob(1))
 				to_chat(user, "<span class='notice'>You just fucking emagged \the [src]. Are you retarded?</span>")
