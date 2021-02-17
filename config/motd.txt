@@ -23,14 +23,14 @@
 <ul>
 <li class="spacer"><strong>Rule 4: Play Antagonists Responsibly</strong></li>
 </ul>
-<p style="padding-left: 60px;">Medium role play is expected and enforced. Contrary to how it is painted on other servers, medium role play is defined as enough role play to reach full immersion. This looks like people doing the jobs they signed up for, people being able to do the jobs they signed up for, and acting within the bounds of the universe the basic lore has established. Furthermore this rule is also applies to antagonists, meaning that you must never actively work against your objectives, failing them is fine so long as you didn’t fail them because you wanted to murderbone the station and or turn the mime into a cat girl, essentially commit antagonistic actions with objective oriented intent. On a final note, fourth wall breaks are non tolerable as they break the medium role play immersion.</p>
+<p style="padding-left: 60px;">ALERT: Monkey station is now a Low-roleplay server. Medium Roleplay rules are no longer enforced.</p>
 <nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" style="display: inline !important;" data-booted="true">
 <div class="v-toolbar__content" style="display: inline !important;">
 <ul>
 <li class="spacer"><strong>Rule 5: Space law</strong></li>
 </ul>
 <p style="padding-left: 60px;">Space law applied is the following: <a href="https://wiki.beestation13.com/view/Space_Law">Click here for the redirection</a><br /><span style="text-decoration: underline;"><strong>Please keep in mind that every Security and Command must know those rules</strong></span>, administrators will act based on those rules.</p>
-<p><br /><span style="text-decoration: underline;">PLEASE REMEMBER THAT THIS IS A MEDIUM RP SERVER</span>! To contact the Admins just AHELP(Under Admin TAB or press F1) even if none of them are online, a discord bot will advice and we will try to get back to you! Now have a nice round and stay safe!</p>
+<p><br /><span style="text-decoration: underline;">PLEASE KEEP IN MIND THAT THIS IS NO LONGER A MRP SERVER, ADMINISTRATORS WILL DENY AHELPS REGUARDING MRP OR HEAVILY IC PROBLEMS.</span>! To contact the Admins just AHELP(Under Admin TAB or press F1) even if none of them are online, a discord bot will advice and we will try to get back to you! Now have a nice round and stay safe!</p>
 </div>
 </nav>
 <div class="v-card__text">&nbsp;</div>
