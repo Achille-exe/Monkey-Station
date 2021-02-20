@@ -11,11 +11,10 @@
 ###############################################################################################
 TheRealUnabomber = Host
 EBicgamer = Game Master
-CODEMAN8926 = Admin
 Fegelein17 = Admin
 NonCancerAlias = Game Master
 SuperDork55 = Admin
 GiggaGuyFromSpaceLand = Trial Admin
-MACIEKBAKI = Trial Admin
+LintyCarcass = Trial Admin
 
 # the rest are in the db
