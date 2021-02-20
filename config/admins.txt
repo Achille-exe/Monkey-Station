@@ -10,7 +10,7 @@
 # and will override any duplicate entries in the database.									  #
 ###############################################################################################
 TheRealUnabomber = Host
-EBicgamer = Game Master
+EBicgamer = Host
 Fegelein17 = Admin
 NonCancerAlias = Game Master
 SuperDork55 = Admin
